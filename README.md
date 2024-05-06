@@ -28,7 +28,7 @@ Bem-vindo ao projeto "Viçosa: Explorando Nossa História e Cultura"! Este proje
 
 ## 👷 Autor
 
-* **Angelo Silvano** - *Função realizada* - [angelodesenvolvedor](https://github.com/angelodesenvolvedor)
+* **Angelo Silvano** - *Front-End Developer* - [angelodesenvolvedor](https://github.com/angelodesenvolvedor)
 
 ## 📄 Licença
 

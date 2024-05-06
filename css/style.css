@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* Estilos para o corpo da página */
+body {
+    font-family: Roboto, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0; /* Adiciona margem zero para evitar espaços em branco */
+    padding: 0; /* Adiciona padding zero para evitar espaços em branco */
+}
+
+/* Estilos para a barra de navegação */
+.navbar {
+    background-color: #007bff;
+}
+
+.navbar-brand {
+    color: #fff;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+/* Estilos para as seções */
+section {
+    padding: 20px 0; /* Adiciona espaçamento interno para melhorar a leitura */
+    text-align: justify; /* Justifica o texto */
+}
+
+section h2 {
+    color: #007bff;
+    margin-bottom: 20px; /* Adiciona margem inferior para separar os títulos dos parágrafos */
+}
+
+section p {
+    color: #6c757d;
+    line-height: 1.6; /* Aumenta a altura da linha para melhorar a legibilidade */
+}
+
+/* Estilos para a seção de informações gerais */
+#informacoes {
+    text-align: center;
+}
+
+/* Centraliza o mapa incorporado */
+#informacoes iframe {
+    display: block;
+    margin: 0 auto;
+    width: 80%; 
+}
+
+/* Estilos para os eventos */
+.eventos {
+    margin-top: 20px;
+}
+
+.eventos h3 {
+    color: #007bff;
+    margin-bottom: 10px; /* Adiciona margem inferior para separar os títulos dos parágrafos */
+}
+
+.eventos p {
+    color: #6c757d;
+    line-height: 1.6; /* Aumenta a altura da linha para melhorar a legibilidade */
+    margin-bottom: 20px; /* Adiciona margem inferior para separar os parágrafos */
+}
+
+/* Estilos para o rodapé */
+.footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Navbar */
+.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Corrige a sobreposição do conteúdo abaixo da navbar */
+body {
+    padding-top: 56px; /* Altura da navbar */
+}
+
+/* Ajusta o espaçamento do conteúdo abaixo da navbar para dispositivos móveis */
+@media (max-width: 576px) {
+    body {
+        padding-top: 70px; /* Altura da navbar para dispositivos móveis */
+    }
+}
+
+/* Scroll suave para as seções ao clicar nos links do menu */
+.navbar-nav a.nav-link {
+    cursor: pointer;
+}

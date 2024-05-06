@@ -1,0 +1,78 @@
+/* Estilos padrão para a galeria */
+.carousel-item img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    margin: auto;
+}
+
+.carousel-inner {
+    overflow-y: auto;
+    scroll-behavior: smooth;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    top: calc(50% - 15px);
+}
+
+.carousel-control-prev {
+    transform: rotate(90deg);
+}
+
+.carousel-control-next {
+    transform: rotate(-90deg);
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f8f9fa;
+    color: #6c757d;
+}
+
+.footer p {
+    font-size: 14px;
+}
+
+/* Estilos para dispositivos com largura de tela menor que 768px (móveis) */
+@media (max-width: 767px) {
+    .carousel-item img {
+        width: auto;
+        height: auto;
+        max-width: 100%;
+        max-height: 70vh;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        top: 45%;
+        transform: translateY(-50%);
+        width: 30px;
+        height: 30px;
+        font-size: 20px;
+    }
+
+    .carousel-control-prev {
+        transform: rotate(0deg);
+    }
+
+    .carousel-control-next {
+        transform: rotate(180deg);
+    }
+
+    .footer {
+        position: static;
+        padding: 10px 0;
+        background-color: #f8f9fa;
+        color: #6c757d;
+    }
+
+    .footer p {
+        font-size: 12px;
+    }
+}

@@ -26,4 +26,12 @@ Bem-vindo ao projeto "Viçosa: Explorando Nossa História e Cultura"! Este proje
 6. **jQuery:** Biblioteca JavaScript utilizada para simplificar tarefas comuns de manipulação de DOM e eventos, especialmente na interação com o Bootstrap e outros componentes.
 7. **Google Maps Embed API:** Integrado ao site para exibir um mapa interativo da localização de Viçosa, permitindo aos usuários explorar a cidade visualmente.
 
+## 👷 Autor
+
+* **Nome do dev** - *Função realizada* - [nome_do_dev](https://github.com/link_do_Perfil)
+
+## 📄 Licença
+
+Esse projeto está sob a licença (nome da licença) - acesse os detalhes [LICENSE.md](https://github.com/link_da_licenca).
+  
 
